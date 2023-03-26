@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #353638;
+    display: grid;
+    align-items: center;
+    /*margin: 0 auto;*/
+}

@@ -1,0 +1,12 @@
+.container {
+    max-width: 775px;
+    margin: 0 auto
+}
+
+.timers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 225px);
+    gap: 45px 50px;
+    align-items: center;
+    justify-content: center;
+}

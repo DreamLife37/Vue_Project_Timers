@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TimerPage/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimerPage from "@/components/timersPage/TimerPage";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TimerPage,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: GothamPro, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #696969;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: local('GothamPro'), local('GothamPro'),
+  url('~@/assets/fonts/GothamPro.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
 }
 </style>

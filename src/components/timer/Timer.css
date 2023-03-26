@@ -1,0 +1,42 @@
+* {
+    --noactive-color: #9E9E9E;
+}
+
+.timer {
+    background: #696969;
+    width: 225px;
+    height: 120px;
+}
+
+.timer__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 60px;
+    border-bottom: 1px solid var(--noactive-color);
+    color: var(--noactive-color);
+}
+
+.timer__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    color: var(--noactive-color);
+}
+
+.timer__top_active {
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.timer__bottom_active {
+    color: #FFFFFF;
+}
+
+.timer__bottomSvg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
